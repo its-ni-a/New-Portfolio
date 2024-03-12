@@ -1,1 +1,153 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* Custon Properties */
+
+:root{
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+    
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: rgba(136, 234, 255, 1);
+    --clr-secondary-accent: rgb(164, 200, 216);
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+    --bs: 0.25em 0.25em 0.75em rbga(0,0,0,.25),
+          0.125em 0.125em 0.25em rbga(0,0,0,.15);
+}
+
+/*-------------------General Styling-------------------*/
+html { 
+    font-family: var(--ff-primary); 
+}
+body {
+   
+    font-size: var(--fs-body);
+}
+main{
+    margin-left: 25%;
+    padding: 5em 2em;
+    padding-top: 2em;
+    overflow: hidden;
+}
+
+
+/*-------------------Header-------------------*/
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: #040b14;
+  overflow-y: auto;
+}
+
+  
+/*-------------------Home Section-------------------*/
+#home{
+  height: 100vh;
+  width: 100%;
+  background: url("../img/overview/IMG-0295\ \(2\).JPG") top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home:before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#hero .overview-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
+
+/*-----------Sections General-------------*/
+section {
+  padding: 20px 0px;
+  overflow: hidden;
+}
+.section-bg {
+  background: #f5f8fd;
+}
+
+main {
+  margin-left: 30rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Home Section */
+/* #main {
+    margin-left: 300px;
+  }
+  
+  @media (max-width: 1199px) {
+    #header {
+      left: -300px;
+    }
+  
+    #main {
+      margin-left: 0;
+    }
+}
+  
+#home{
+    width: %;
+    height: 50rem;
+    background: url(../img/overview/IMG-0295.JPG) top center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+#home .home-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+  } */
+
 
